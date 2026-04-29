@@ -1,0 +1,31 @@
+.env
+.env.*
+.python-version
+
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+.venv/
+venv/
+
+.DS_Store
+
+# Local editor/project noise
+.idea/
+.vscode/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local model or dataset artifacts if they get created in-repo
+artifacts/
+outputs/
+checkpoints/
+tmp/
